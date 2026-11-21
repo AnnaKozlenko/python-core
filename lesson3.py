@@ -24,5 +24,6 @@ elif o == "-":
 elif o == "/":
       print (f"{a}  / {b} = {div(a,b)}")
 elif o == "*":
-    print (f"{a}  * {b} = {mul(a,b)}")
-
+     print (f"{a}  * {b} = {mul(a,b)}")
+else:
+    print("неправильна дія")
