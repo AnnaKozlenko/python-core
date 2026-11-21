@@ -15,9 +15,14 @@ def mul(a,b):
 
 a = int(input("a: "))
 b = int(input("b: "))
+o = input("act:  ")
 
+if o == "+":
+      print (f"{a} + {b} = {add(a,b)}")
+elif o == "-":
+      print (f"{a} -{b} = {diff(a,b)}")
+elif o == "/":
+      print (f"{a}  / {b} = {div(a,b)}")
+elif o == "*":
+    print (f"{a}  * {b} = {mul(a,b)}")
 
-print (f"{a} + {b} = {add(a,b)}")
-print (f"{a} -{b} = {diff(a,b)}")
-print (f"{a}  / {b} = {div(a,b)}")
-print (f"{a}  * {b} = {mul(a,b)}")
